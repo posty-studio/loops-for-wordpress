@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "loops/sample-block",
+	"title": "Sample Block",
+	"description": "Sample dynamic block to get started.",
+	"category": "common",
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"viewScript": "file:./view.js",
+	"style": "file:./style-index.css",
+	"render": "file:./index.php"
+}

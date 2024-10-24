@@ -1,0 +1,23 @@
+{
+	"$schema": "https://getcomposer.org/schema.json",
+	"name": "loops/l4wp",
+	"description": "Add Loops support to your WordPress site.",
+	"type": "project",
+	"license": "GPL-3.0",
+	"autoload": {
+		"classmap": [
+			"includes/"
+		]
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
