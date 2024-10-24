@@ -12,7 +12,6 @@
 		"extends @wordpress/browserslist-config"
 	],
 	"devDependencies": {
-		"@inquirer/prompts": "^7.0.0",
 		"@wordpress/prettier-config": "^4.10.0",
 		"@wordpress/scripts": "^30.3.0",
 		"postcss-import": "^16.1.0",
