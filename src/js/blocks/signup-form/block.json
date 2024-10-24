@@ -1,9 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "loops/sample-block",
-	"title": "Sample Block",
-	"description": "Sample dynamic block to get started.",
+	"name": "loops/signup-form",
+	"title": "Signup Form",
+	"description": "Add a signup form for Loops.",
 	"category": "common",
 	"supports": {
 		"html": false,
